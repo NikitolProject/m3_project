@@ -11,3 +11,4 @@ class ContentTypePack(ObjectPack):
 
     add_to_menu = True
     add_to_desktop = True
+
