@@ -29,13 +29,13 @@ source venv/bin/activate
 ```
 - Установить проект через pip:
 ```bash
-pip install https://github.com/NikitolProject/m3_project.git \
+pip install git+https://github.com/NikitolProject/m3_project.git \
  --extra-index-url http://pypi.bars-open.ru/simple/ \
  --trusted-host pypi.bars-open.ru
 ```
 - Запустить миграцию базы данных и сам сервер:
 ```
-python <путь_к_вашему_окружению>/lib/python3.6/site-packages/m3_project/manage.py migrations
+python <путь_к_вашему_окружению>/lib/python3.6/site-packages/m3_project/manage.py migrate
 python <путь_к_вашему_окружению>/lib/python3.6/site-packages/m3_project/manage.py runserver
 ```
 

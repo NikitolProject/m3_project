@@ -50,4 +50,5 @@ class PermissionPack(ObjectPack):
     model = Permission
     add_window = edit_window = PermissionAddWindow
     add_to_menu = True
+    add_to_desktop = True
 

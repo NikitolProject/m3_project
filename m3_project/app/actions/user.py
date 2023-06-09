@@ -95,6 +95,7 @@ class UserPack(ObjectPack):
     model = get_user_model()
     add_window = edit_window = UserAddWindow
     add_to_menu = True
+    add_to_desktop = True
 
     @atomic
     def post_run(
