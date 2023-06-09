@@ -35,7 +35,7 @@ pip install git+https://github.com/NikitolProject/m3_project.git \
 ```
 - Запустить миграцию базы данных и сам сервер:
 ```
-python <путь_к_вашему_окружению>/lib/python3.6/site-packages/m3_project/manage.py migrate
-python <путь_к_вашему_окружению>/lib/python3.6/site-packages/m3_project/manage.py runserver
+python venv/lib/python3.6/site-packages/m3_project/manage.py migrate
+python venv/lib/python3.6/site-packages/m3_project/manage.py runserver
 ```
 
